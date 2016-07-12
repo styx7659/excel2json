@@ -2,6 +2,7 @@ excel2json
 ==========
 * Copyright (C) 2016 by WooJun Shim woojun.shim@gmail.com
 * Korean description available in http://nvidian7.github.io
+ * Sorry for poor english description ;(
 * excel2json is tool that generates JSON files from well-formed excel datas
 
 ## Purpose
@@ -20,23 +21,32 @@ excel2json
  * N-depth hierarchy ( as you want to )
 * Excel formula evaluatation supports
 * Using cell merge feature to represents Object or Array's scope
+* Pretty printed JSON output
+* Maintain property order in JSON which defined excel data  
 
 ## How to define JSON scheme in xls files 
 
-Please see sample.xlsx and commited json files :)
-If you are familiar with JSON-structure will soon be able to understand
+* Please see sample.xlsx and commited json files :)
+* If you are familiar with JSON-structure will soon be able to understand
 
+
+## Usage
+Just typing this :D
+
+```
+Java -jar excel2json-standalone.jar
+```
 
 ## Constraints
 * Supports only version of Excel 2007 (or higher)
-* excel2json Needs at least the Java Runtime Environment v1.8
+* excel2json needs at least the Java Runtime Environment 1.8
 * Source-code is not provide yet, sort of...
 
 ## Similar projects that I've found on GitHub
 * https://github.com/coolengineer/excel2json
 * https://github.com/mhaemmerle/excel-to-json
 
-## Command line arguments
+## Command line options
 
 
 ## Warning

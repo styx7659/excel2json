@@ -1,5 +1,5 @@
 {
-  "1" : {
+  "10001" : {
     "attack_damage" : 100,
     "attach_speed" : 0.5,
     "visual_props" : {
@@ -14,7 +14,7 @@
       "vopal" : 10
     }
   },
-  "2" : {
+  "10002" : {
     "attack_damage" : 200,
     "attach_speed" : 0.7,
     "visual_props" : {
@@ -26,7 +26,7 @@
       }
     }
   },
-  "3" : {
+  "10003" : {
     "attack_damage" : 150,
     "attach_speed" : 1.2,
     "visual_props" : {

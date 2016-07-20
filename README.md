@@ -1,7 +1,7 @@
 excel2json
 ==========
 * Copyright (C) 2016 by WooJun Shim woojun.shim@gmail.com
-* Korean description available in http://nvidian7.github.io
+* Korean description available in http://nvidian7.github.io/development/2016/07/16/excel2json.html
  * Sorry for poor english description ;(
 * excel2json is tool for generating JSON files from well-formed excel data
 

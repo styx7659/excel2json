@@ -46,6 +46,8 @@ java -jar excel2json-standalone.jar
 * https://github.com/mhaemmerle/excel-to-json
 
 ## Command line options
+* --generate-hash
+Generates md5 hash contains json file whice named 'resource_hash.json'
 
 ## Changelist
 

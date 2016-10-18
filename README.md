@@ -13,11 +13,11 @@ excel2json
 ## Features
 * Auto-search source Excel files in same directory
 * JSON file generated per workbook's sheet (JSON filename would be same with Excel sheet name)
- * Sheet name must be prefixed '!' mark (see example.xlsx)
- * Not-prefixed sheet will be ignored
+    * Sheet name must be prefixed '!' mark (see example.xlsx)
+    * Not-prefixed sheet will be ignored
 * Supports complex hierarchy JSON model
- * Object in Objects, Array in Objects, Objects in Array all of cases that JSON can represents
- * N-depth hierarchy ( as you want to )
+    * Object in Objects, Array in Objects, Objects in Array all of cases that JSON can represents
+    * N-depth hierarchy ( as you want to )
 * Excel formula evaluatation supports
 * Using cell merge feature to represents Object or Array's scope
 * Pretty printed JSON output
@@ -47,9 +47,12 @@ java -jar excel2json-standalone.jar
 
 ## Command line options
 * --generate-hash
-Generates md5 hash contains json file whice named 'resource_hash.json'
+    * Generates md5 hash json file which named 'resource_hash.json'
 
 ## Changelist
+
+* 2016-10-18
+    * Fix MD5 hash dump feature bug.
 
 ## Warning
 1. It would cause poor performance if you have too many VLOOKUP formula 
